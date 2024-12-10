@@ -11,11 +11,8 @@
       "results": [
         {
           "ruleId": "CVE-2021-21351",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2021-21351",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2021-21351"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-21351"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -43,11 +40,8 @@
         },
         {
           "ruleId": "CVE-2021-39139",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2021-39139",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2021-39139"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-39139"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -75,11 +69,8 @@
         },
         {
           "ruleId": "CVE-2024-47072",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2024-47072",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2024-47072"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2024-47072"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -107,11 +98,8 @@
         },
         {
           "ruleId": "CVE-2021-39141",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2021-39141",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2021-39141"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-39141"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -139,11 +127,8 @@
         },
         {
           "ruleId": "CVE-2021-21341",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2021-21341",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2021-21341"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-21341"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -171,11 +156,8 @@
         },
         {
           "ruleId": "CVE-2021-21345",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2021-21345",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2021-21345"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-21345"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -203,11 +185,8 @@
         },
         {
           "ruleId": "CVE-2022-41966",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2022-41966",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2022-41966"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2022-41966"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -235,11 +214,8 @@
         },
         {
           "ruleId": "CVE-2021-39151",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2021-39151",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2021-39151"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-39151"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -267,11 +243,8 @@
         },
         {
           "ruleId": "CVE-2021-39145",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2021-39145",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2021-39145"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-39145"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -299,11 +272,8 @@
         },
         {
           "ruleId": "CVE-2017-7957",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2017-7957",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2017-7957"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2017-7957"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -331,11 +301,8 @@
         },
         {
           "ruleId": "CVE-2021-39153",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2021-39153",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2021-39153"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-39153"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -363,11 +330,8 @@
         },
         {
           "ruleId": "CVE-2021-21344",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2021-21344",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2021-21344"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-21344"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -395,11 +359,8 @@
         },
         {
           "ruleId": "CVE-2021-21348",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2021-21348",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2021-21348"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-21348"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -427,11 +388,8 @@
         },
         {
           "ruleId": "CVE-2021-39147",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2021-39147",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2021-39147"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-39147"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -459,11 +417,8 @@
         },
         {
           "ruleId": "CVE-2021-21342",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2021-21342",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2021-21342"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-21342"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -491,11 +446,8 @@
         },
         {
           "ruleId": "CVE-2020-26217",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2020-26217",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2020-26217"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2020-26217"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -523,11 +475,8 @@
         },
         {
           "ruleId": "CVE-2021-39149",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2021-39149",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2021-39149"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-39149"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -555,11 +504,8 @@
         },
         {
           "ruleId": "CVE-2020-26258",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2020-26258",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2020-26258"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2020-26258"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -587,11 +533,8 @@
         },
         {
           "ruleId": "CVE-2021-21350",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2021-21350",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2021-21350"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-21350"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -619,11 +562,8 @@
         },
         {
           "ruleId": "CVE-2013-7285",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2013-7285",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2013-7285"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2013-7285"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -651,11 +591,8 @@
         },
         {
           "ruleId": "CVE-2021-39140",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2021-39140",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2021-39140"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-39140"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -683,11 +620,8 @@
         },
         {
           "ruleId": "CVE-2021-39154",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2021-39154",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2021-39154"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-39154"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -715,11 +649,8 @@
         },
         {
           "ruleId": "CVE-2016-3674",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2016-3674",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2016-3674"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2016-3674"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -747,11 +678,8 @@
         },
         {
           "ruleId": "CVE-2021-21346",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2021-21346",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2021-21346"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-21346"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -779,11 +707,8 @@
         },
         {
           "ruleId": "CVE-2021-39150",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2021-39150",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2021-39150"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-39150"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -811,11 +736,8 @@
         },
         {
           "ruleId": "CVE-2021-39144",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2021-39144",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2021-39144"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-39144"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -843,11 +765,8 @@
         },
         {
           "ruleId": "CVE-2021-43859",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2021-43859",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2021-43859"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-43859"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -875,11 +794,8 @@
         },
         {
           "ruleId": "CVE-2022-40151",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2022-40151",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2022-40151"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2022-40151"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -907,11 +823,8 @@
         },
         {
           "ruleId": "CVE-2021-39152",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2021-39152",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2021-39152"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-39152"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -939,11 +852,8 @@
         },
         {
           "ruleId": "CVE-2021-39146",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2021-39146",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2021-39146"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-39146"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -971,11 +881,8 @@
         },
         {
           "ruleId": "CVE-2021-21347",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2021-21347",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2021-21347"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-21347"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -1003,11 +910,8 @@
         },
         {
           "ruleId": "CVE-2021-21343",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2021-21343",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2021-21343"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-21343"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -1035,11 +939,8 @@
         },
         {
           "ruleId": "CVE-2021-21349",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2021-21349",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2021-21349"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-21349"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -1067,11 +968,8 @@
         },
         {
           "ruleId": "CVE-2021-29505",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2021-29505",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2021-29505"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-29505"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -1099,11 +997,8 @@
         },
         {
           "ruleId": "CVE-2021-39148",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2021-39148",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2021-39148"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-39148"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -1131,11 +1026,8 @@
         },
         {
           "ruleId": "CVE-2020-26259",
-          "messageStrings": {
-            "default": {
-              "text": "The xstream-1.4.5.jar is affected by CVE-2020-26259",
-              "markdown": "The xstream-1.4.5.jar is affected by CVE-2020-26259"
-            }
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2020-26259"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -1163,11 +1055,8 @@
         },
         {
           "ruleId": "CVE-2023-51775",
-          "messageStrings": {
-            "default": {
-              "text": "The jose4j-0.9.3.jar is affected by CVE-2023-51775",
-              "markdown": "The jose4j-0.9.3.jar is affected by CVE-2023-51775"
-            }
+          "message": {
+            "text": "jose4j-0.9.3.jar is affected by CVE-2023-51775"
           },
           "shortDescription": {
             "text": "This is a short description",
@@ -1195,11 +1084,8 @@
         },
         {
           "ruleId": "CVE-2023-51775",
-          "messageStrings": {
-            "default": {
-              "text": "The jose4j-0.9.3.jar is affected by CVE-2023-51775",
-              "markdown": "The jose4j-0.9.3.jar is affected by CVE-2023-51775"
-            }
+          "message": {
+            "text": "jose4j-0.9.3.jar is affected by CVE-2023-51775"
           },
           "shortDescription": {
             "text": "This is a short description",
