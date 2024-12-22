@@ -4,60 +4,1112 @@
     {
       "tool": {
         "driver": {
-          "name": "CodeScanner",
-          "rules": [
-            {
-              "id": "C2001",
-              "fullDescription": {
-                "text": "A variable was used without being initialized. This can result in runtime errors such as null reference exceptions."
-              },
-              "messageStrings": {
-                "default": {
-                  "text": "Variable \"{0}\" was used without being initialized."
-                }
-              }
-            }
-          ]
+          "name": "Dependency Vulnerability Scanner",
+          "rules": []
         }
       },
-      "artifacts": [
-        {
-          "location": {
-            "uri": "src/collections/list.cpp",
-            "uriBaseId": "SRCROOT"
-          },
-          "sourceLanguage": "c"
-        }
-      ],
       "results": [
         {
-          "ruleId": "C2001",
-          "ruleIndex": 0,
+          "ruleId": "CVE-2021-21351",
           "message": {
-            "id": "default",
-            "arguments": [
-              "count"
-            ]
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-21351"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
           },
           "locations": [
             {
               "physicalLocation": {
                 "artifactLocation": {
-                  "uri": "src/collections/list.cpp",
-                  "uriBaseId": "SRCROOT",
-                  "index": 0
-                },
-                "region": {
-                  "startLine": 15
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
                 }
-              },
-              "logicalLocations": [
-                {
-                  "fullyQualifiedName": "collections::list::add"
-                }
-              ]
+              }
             }
-          ]
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2021-21351",
+              "description": "Upgrade to version",
+              "url": "https://github.com/x-stream/xstream/security/advisories/GHSA-hrcp-8f3q-4w2c"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2021-39139",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-39139"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2021-39139",
+              "description": "Upgrade to version",
+              "url": "https://github.com/x-stream/xstream/security/advisories/GHSA-64xx-cq4q-mf44"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2024-47072",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2024-47072"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2024-47072",
+              "description": "Upgrade to version",
+              "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-47072"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2021-39141",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-39141"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2021-39141",
+              "description": "Upgrade to version",
+              "url": "https://github.com/x-stream/xstream/security/advisories/GHSA-g5w6-mrj7-75h2"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2021-21341",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-21341"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2021-21341",
+              "description": "Upgrade to version",
+              "url": "https://github.com/x-stream/xstream/security/advisories/GHSA-2p3x-qw9c-25hh"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2021-21345",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-21345"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2021-21345",
+              "description": "Upgrade to version",
+              "url": "https://github.com/x-stream/xstream/security/advisories/GHSA-hwpc-8xqv-jvj4"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2022-41966",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2022-41966"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2022-41966",
+              "description": "Upgrade to version",
+              "url": "https://github.com/advisories/GHSA-j563-grx4-pjpv"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2021-39151",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-39151"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2021-39151",
+              "description": "Upgrade to version",
+              "url": "https://github.com/x-stream/xstream/security/advisories/GHSA-hph2-m3g5-xxv4"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2021-39145",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-39145"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2021-39145",
+              "description": "Upgrade to version",
+              "url": "https://github.com/x-stream/xstream/security/advisories/GHSA-8jrj-525p-826v"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2017-7957",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2017-7957"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2017-7957",
+              "description": "Upgrade to version",
+              "url": "http://x-stream.github.io/CVE-2017-7957.html"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2021-39153",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-39153"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2021-39153",
+              "description": "Upgrade to version",
+              "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39153"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2021-21344",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-21344"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2021-21344",
+              "description": "Upgrade to version",
+              "url": "https://github.com/x-stream/xstream/security/advisories/GHSA-59jw-jqf4-3wq3"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2021-21348",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-21348"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2021-21348",
+              "description": "Upgrade to version",
+              "url": "https://github.com/x-stream/xstream/security/advisories/GHSA-56p8-3fh9-4cvq"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2021-39147",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-39147"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2021-39147",
+              "description": "Upgrade to version",
+              "url": "https://github.com/x-stream/xstream/security/advisories/GHSA-h7v4-7xg3-hxcc"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2021-21342",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-21342"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2021-21342",
+              "description": "Upgrade to version",
+              "url": "https://github.com/x-stream/xstream/security/advisories/GHSA-hvv8-336g-rx3m"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2020-26217",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2020-26217"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2020-26217",
+              "description": "Upgrade to version",
+              "url": "https://github.com/x-stream/xstream/security/advisories/GHSA-mw36-7c6c-q4q2"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2021-39149",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-39149"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2021-39149",
+              "description": "Upgrade to version",
+              "url": "https://github.com/x-stream/xstream/security/advisories/GHSA-3ccq-5vw3-2p6x"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2020-26258",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2020-26258"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2020-26258",
+              "description": "Upgrade to version",
+              "url": "https://github.com/x-stream/xstream/security/advisories/GHSA-4cch-wxpw-8p28"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2021-21350",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-21350"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2021-21350",
+              "description": "Upgrade to version",
+              "url": "https://github.com/x-stream/xstream/security/advisories/GHSA-43gc-mjxg-gvrq"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2013-7285",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2013-7285"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2013-7285",
+              "description": "Upgrade to version",
+              "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-7285"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2021-39140",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-39140"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2021-39140",
+              "description": "Upgrade to version",
+              "url": "https://github.com/x-stream/xstream/security/advisories/GHSA-6wf9-jmg9-vxcc"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2021-39154",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-39154"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2021-39154",
+              "description": "Upgrade to version",
+              "url": "https://github.com/x-stream/xstream/security/advisories/GHSA-6w62-hx7r-mw68"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2016-3674",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2016-3674"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2016-3674",
+              "description": "Upgrade to version",
+              "url": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-3674"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2021-21346",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-21346"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2021-21346",
+              "description": "Upgrade to version",
+              "url": "https://github.com/x-stream/xstream/security/advisories/GHSA-4hrm-m67v-5cxr"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2021-39150",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-39150"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2021-39150",
+              "description": "Upgrade to version",
+              "url": "https://github.com/x-stream/xstream/security/advisories/GHSA-hph2-m3g5-xxv4"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2021-39144",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-39144"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2021-39144",
+              "description": "Upgrade to version",
+              "url": "https://github.com/x-stream/xstream/security/advisories/GHSA-j9h8-phrw-h4fh"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2021-43859",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-43859"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2021-43859",
+              "description": "Upgrade to version",
+              "url": "https://github.com/advisories/GHSA-rmr5-cpv2-vgjf"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2022-40151",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2022-40151"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2022-40151",
+              "description": "Upgrade to version",
+              "url": "https://github.com/advisories/GHSA-f8cc-g7j8-xxpm"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2021-39152",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-39152"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2021-39152",
+              "description": "Upgrade to version",
+              "url": "https://github.com/x-stream/xstream/security/advisories/GHSA-xw4p-crpj-vjx2"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2021-39146",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-39146"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2021-39146",
+              "description": "Upgrade to version",
+              "url": "https://github.com/x-stream/xstream/security/advisories/GHSA-p8pq-r894-fm8f"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2021-21347",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-21347"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2021-21347",
+              "description": "Upgrade to version",
+              "url": "https://github.com/x-stream/xstream/security/advisories/GHSA-qpfq-ph7r-qv6f"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2021-21343",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-21343"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2021-21343",
+              "description": "Upgrade to version",
+              "url": "https://github.com/x-stream/xstream/security/advisories/GHSA-74cv-f58x-f9wf"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2021-21349",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-21349"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2021-21349",
+              "description": "Upgrade to version",
+              "url": "https://github.com/x-stream/xstream/security/advisories/GHSA-f6hm-88x3-mfjv"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2021-29505",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-29505"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2021-29505",
+              "description": "Upgrade to version",
+              "url": "https://github.com/advisories/GHSA-7chv-rrw6-w6fc"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2021-39148",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2021-39148"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2021-39148",
+              "description": "Upgrade to version",
+              "url": "https://github.com/x-stream/xstream/security/advisories/GHSA-qrx8-8545-4wg2"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2020-26259",
+          "message": {
+            "text": "xstream-1.4.5.jar is affected by CVE-2020-26259"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\nxstream-1.4.5.jar (CVE-2021-21351, CVE-2021-39139, CVE-2024-47072, CVE-2021-39141, CVE-2021-21341, CVE-2021-21345, CVE-2022-41966, CVE-2021-39151, CVE-2021-39145, CVE-2017-7957, CVE-2021-39153, CVE-2021-21344, CVE-2021-21348, CVE-2021-39147, CVE-2021-21342, CVE-2020-26217, CVE-2021-39149, CVE-2020-26258, CVE-2021-21350, CVE-2013-7285, CVE-2021-39140, CVE-2021-39154, CVE-2016-3674, CVE-2021-21346, CVE-2021-39150, CVE-2021-39144, CVE-2021-43859, CVE-2022-40151, CVE-2021-39152, CVE-2021-39146, CVE-2021-21347, CVE-2021-21343, CVE-2021-21349, CVE-2021-29505, CVE-2021-39148, CVE-2020-26259)\n   \u251c\u2500 cglib-nodep-3.3.0.jar\n   \u251c\u2500 joda-time-2.12.7.jar\n   \u251c\u2500 xmlpull-1.1.3.1.jar\n   \u2514\u2500 xpp3_min-1.1.4c.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2020-26259",
+              "description": "Upgrade to version",
+              "url": "https://github.com/x-stream/xstream/security/advisories/GHSA-jfvx-7wrx-43fh"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2023-51775",
+          "message": {
+            "text": "jose4j-0.9.3.jar is affected by CVE-2023-51775"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\njose4j-0.9.3.jar (CVE-2023-51775)\n   \u251c\u2500 logback-classic-1.5.11.jar\n   \u2514\u2500 slf4j-api-2.0.16.jar\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2023-51775",
+              "description": "Upgrade to version",
+              "url": "https://www.cve.org/CVERecord?id=CVE-2023-51775"
+            }
+          }
+        },
+        {
+          "ruleId": "CVE-2023-51775",
+          "message": {
+            "text": "jose4j-0.9.3.jar is affected by CVE-2023-51775"
+          },
+          "shortDescription": {
+            "text": "This is a short description",
+            "markdown": "This is a short description"
+          },
+          "fullDescription": {
+            "markdown": "Dependency tree:\n```\njose4j-0.9.3.jar (CVE-2023-51775)\n```"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "/java/work/mend-poc-webgoat/pom.xml"
+                }
+              }
+            }
+          ],
+          "properties": {
+            "vulnerability": {
+              "id": "CVE-2023-51775",
+              "description": "Upgrade to version",
+              "url": "https://www.cve.org/CVERecord?id=CVE-2023-51775"
+            }
+          }
         }
       ]
     }
