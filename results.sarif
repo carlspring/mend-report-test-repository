@@ -6,7 +6,1618 @@
       "tool": {
         "driver": {
           "name": "Mend.io: Dependency Vulnerability Scanner",
-          "rules": []
+          "rules": [
+            {
+              "id": "CVE-2018-19362",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version 2.9.8"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version 2.9.8"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-19362",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2020-36189",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
+              },
+              "helpUri": "https://github.com/FasterXML/jackson-databind/issues/2996",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2018-12023",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version 2.7.9.4, 2.8.11.2, 2.9.6"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version 2.7.9.4, 2.8.11.2, 2.9.6"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-12022",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2019-16335",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.6.7.3,2.8.11.5,2.9.10"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.6.7.3,2.8.11.5,2.9.10"
+              },
+              "helpUri": "https://osv.dev/vulnerability/GHSA-85cw-hj65-qqv9",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2022-42003",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.12.7.1,2.13.4.2"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.12.7.1,2.13.4.2"
+              },
+              "helpUri": "https://github.com/advisories/GHSA-jjjh-jjxp-wpff",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2020-14060",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.10.0"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.10.0"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14060",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2020-36187",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
+              },
+              "helpUri": "https://github.com/FasterXML/jackson-databind/issues/2997",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2020-24750",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.6"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.6"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-24616",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2020-36183",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
+              },
+              "helpUri": "https://github.com/FasterXML/jackson-databind/issues/3003",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2020-11111",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.4,2.10.0"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.4,2.10.0"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11113",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2020-14195",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.5"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.5"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14195",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2021-20190",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind-2.9.10.7"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind-2.9.10.7"
+              },
+              "helpUri": "https://github.com/FasterXML/jackson-databind/issues/2854",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2019-17267",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.8.11.5,2.9.10"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.8.11.5,2.9.10"
+              },
+              "helpUri": "https://github.com/FasterXML/jackson-databind/issues/2460",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2018-14720",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.7.9.5,2.8.11.3,2.9.7"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.7.9.5,2.8.11.3,2.9.7"
+              },
+              "helpUri": "https://osv.dev/vulnerability/GHSA-x2w5-5m2g-7h5m",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2019-12814",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version 2.7.9.6, 2.8.11.4, 2.9.9.1, 2.10.0"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version 2.7.9.6, 2.8.11.4, 2.9.9.1, 2.10.0"
+              },
+              "helpUri": "https://github.com/FasterXML/jackson-databind/issues/2341",
+              "properties": {
+                "severity": "MEDIUM"
+              }
+            },
+            {
+              "id": "CVE-2020-9547",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.7.9.7,2.8.11.6,2.9.10.4"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.7.9.7,2.8.11.6,2.9.10.4"
+              },
+              "helpUri": "https://osv.dev/vulnerability/GHSA-q93h-jc49-78gg",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2020-10673",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.4"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.4"
+              },
+              "helpUri": "https://github.com/FasterXML/jackson-databind/issues/2660",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2018-12022",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version 2.7.9.4, 2.8.11.2, 2.9.6"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version 2.7.9.4, 2.8.11.2, 2.9.6"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-12022",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2019-20330",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.7.9.7,2.8.11.5,2.9.10.2"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.7.9.7,2.8.11.5,2.9.10.2"
+              },
+              "helpUri": "https://github.com/FasterXML/jackson-databind/issues/2526",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2020-14061",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.10.0"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.10.0"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14061",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2020-11620",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.4"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.4"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11620",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2020-36184",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
+              },
+              "helpUri": "https://github.com/FasterXML/jackson-databind/issues/2998",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2019-10202",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.0.0"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.0.0"
+              },
+              "helpUri": "https://lists.apache.org/thread/08302h5kp2l9ry2zq8vydomlhn0fg4j4",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2020-36180",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
+              },
+              "helpUri": "https://github.com/FasterXML/jackson-databind/issues/3004",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2018-14721",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.6.7.3,2.7.9.5,2.8.11.3,2.9.7"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.6.7.3,2.7.9.5,2.8.11.3,2.9.7"
+              },
+              "helpUri": "https://github.com/FasterXML/jackson-databind/commit/87d29af25e82a249ea15858e2d4ecbf64091db44",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2018-19360",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.7.9.5,2.8.11.3,2.9.8"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.7.9.5,2.8.11.3,2.9.8"
+              },
+              "helpUri": "https://osv.dev/vulnerability/GHSA-f9hv-mg5h-xcw9",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2020-36518",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.12.6.1,2.13.2.1"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.12.6.1,2.13.2.1"
+              },
+              "helpUri": "https://github.com/FasterXML/jackson-databind/issues/2816",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2020-10672",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version jackson-databind-2.9.10.4"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version jackson-databind-2.9.10.4"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2020-10672",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2020-36179",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
+              },
+              "helpUri": "https://github.com/FasterXML/jackson-databind/issues/3004",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2019-14893",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.10.0"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.10.0"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-14893",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2020-9546",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.10.3"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.10.3"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9546",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2020-9548",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.7.9.7,2.8.11.6,2.9.10.4"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.7.9.7,2.8.11.6,2.9.10.4"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-9548",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2020-10969",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.8.11.6;com.fasterxml.jackson.core:jackson-databind:2.7.9.7"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.8.11.6;com.fasterxml.jackson.core:jackson-databind:2.7.9.7"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-10969",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2020-36185",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
+              },
+              "helpUri": "https://github.com/FasterXML/jackson-databind/issues/2998",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2020-14062",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.10.0"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.10.0"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14062",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2020-36181",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
+              },
+              "helpUri": "https://github.com/FasterXML/jackson-databind/issues/3004",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2020-11619",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.4"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.4"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11619",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2020-35491",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
+              },
+              "helpUri": "https://github.com/FasterXML/jackson-databind/issues/2986",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2019-14379",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.7.9.6,2.8.11.4,2.9.9.2"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.7.9.6,2.8.11.4,2.9.9.2"
+              },
+              "helpUri": "https://osv.dev/vulnerability/GHSA-6fpp-rgj9-8rwc",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2019-16943",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.6.7.3,2.8.11.5,2.9.10.1"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.6.7.3,2.8.11.5,2.9.10.1"
+              },
+              "helpUri": "https://osv.dev/vulnerability/GHSA-fmmc-742q-jg75",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2019-17531",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.6.7.3,2.8.11.5,2.9.10.1"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.6.7.3,2.8.11.5,2.9.10.1"
+              },
+              "helpUri": "https://osv.dev/vulnerability/GHSA-gjmw-vf9h-g25v",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2020-11113",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.4;2.10.0"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.4;2.10.0"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11113",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2019-12086",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version 2.9.9"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version 2.9.9"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12086",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2018-19361",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.7.9.5,2.8.11.3,2.9.8"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.7.9.5,2.8.11.3,2.9.8"
+              },
+              "helpUri": "https://osv.dev/vulnerability/GHSA-mx9v-gmh4-mgqw",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2020-24616",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version 2.9.10.6"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version 2.9.10.6"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-24616",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2020-25649",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.6.7.4,2.9.10.7,2.10.5.1,2.11.0.rc1"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.6.7.4,2.9.10.7,2.10.5.1,2.11.0.rc1"
+              },
+              "helpUri": "https://github.com/FasterXML/jackson-databind/issues/2589",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2018-14718",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.7.9.5,2.8.11.3,2.9.7"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.7.9.5,2.8.11.3,2.9.7"
+              },
+              "helpUri": "https://osv.dev/vulnerability/GHSA-645p-88qh-w398",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2018-11307",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version jackson-databind-2.9.6"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version jackson-databind-2.9.6"
+              },
+              "helpUri": "https://github.com/FasterXML/jackson-databind/issues/2032",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2020-36188",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
+              },
+              "helpUri": "https://github.com/FasterXML/jackson-databind/issues/2996",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2019-14892",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.6.7.3,2.8.11.5,2.9.10"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.6.7.3,2.8.11.5,2.9.10"
+              },
+              "helpUri": "https://osv.dev/vulnerability/GHSA-cf6r-3wgc-h863",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2020-36186",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
+              },
+              "helpUri": "https://github.com/FasterXML/jackson-databind/issues/2997",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2022-42004",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.13.4"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.13.4"
+              },
+              "helpUri": "https://github.com/FasterXML/jackson-databind/issues/3582",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2020-10968",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version jackson-databind-2.9.10.4"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version jackson-databind-2.9.10.4"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2020-10968",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2020-8840",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.3"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.3"
+              },
+              "helpUri": "https://github.com/FasterXML/jackson-databind/issues/2620",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2019-12384",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version 2.9.9.1"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version 2.9.9.1"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12384",
+              "properties": {
+                "severity": "MEDIUM"
+              }
+            },
+            {
+              "id": "CVE-2020-36182",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
+              },
+              "helpUri": "https://github.com/FasterXML/jackson-databind/issues/3004",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2020-10650",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.4"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.4"
+              },
+              "helpUri": "https://github.com/advisories/GHSA-rpr3-cw39-3pxh",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2020-35728",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35728",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2020-35490",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.8"
+              },
+              "helpUri": "https://github.com/FasterXML/jackson-databind/issues/2986",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2019-14540",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.6.7.3,2.8.11.5,2.9.10"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.6.7.3,2.8.11.5,2.9.10"
+              },
+              "helpUri": "https://osv.dev/vulnerability/GHSA-h822-r4r5-v8jg",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2019-16942",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.6.7.3,2.8.11.5,2.9.10.1"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.6.7.3,2.8.11.5,2.9.10.1"
+              },
+              "helpUri": "https://osv.dev/vulnerability/GHSA-mx7p-6679-8g3q",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2020-11112",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.4,2.10.0"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.9.10.4,2.10.0"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11112",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2019-14439",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version 2.9.9.2"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version 2.9.9.2"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-14439",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2018-14719",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.7.9.5,2.8.11.3,2.9.7"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-databind:2.7.9.5,2.8.11.3,2.9.7"
+              },
+              "helpUri": "https://osv.dev/vulnerability/GHSA-4gq5-ch57-c2mg",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "WS-2022-0468",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-core:2.15.0"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version com.fasterxml.jackson.core:jackson-core:2.15.0"
+              },
+              "helpUri": "https://github.com/FasterXML/jackson-core/issues/861",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2015-7501",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version commons-collections:commons-collections:3.2.2;org.apache.commons:commons-collections4:4.1"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version commons-collections:commons-collections:3.2.2;org.apache.commons:commons-collections4:4.1"
+              },
+              "helpUri": "https://bugzilla.redhat.com/show_bug.cgi?id=1279330",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2015-4852",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version commons-collections:commons-collections:3.2.2"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version commons-collections:commons-collections:3.2.2"
+              },
+              "helpUri": "https://www.openwall.com/lists/oss-security/2015/11/17/19",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2019-13116",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version commons-collections:commons-collections:3.2.2"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version commons-collections:commons-collections:3.2.2"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-13116",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2015-6420",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version commons-collections:commons-collections3.2.2,org.apache.commons:commons-collections4:4.1"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version commons-collections:commons-collections3.2.2,org.apache.commons:commons-collections4:4.1"
+              },
+              "helpUri": "https://github.com/apache/commons-collections/tree/collections-3.2.2,https://github.com/apache/commons-collections/tree/collections-4.1",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2017-15708",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.synapse:Apache-Synapse:3.0.1;commons-collections:commons-collections:3.2.2"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.synapse:Apache-Synapse:3.0.1;commons-collections:commons-collections:3.2.2"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-15708",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2017-9801",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version 1.5"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version 1.5"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-9801",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2018-1294",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.commons:commons-email:1.5"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.commons:commons-email:1.5"
+              },
+              "helpUri": "https://github.com/advisories/GHSA-v7cm-w955-pj6g",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2023-41835",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.5.32,6.1.2.2,6.3.0.1"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.5.32,6.1.2.2,6.3.0.1"
+              },
+              "helpUri": "https://www.cve.org/CVERecord?id=CVE-2023-41835",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2024-53677",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:6.4.0"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:6.4.0"
+              },
+              "helpUri": "https://cwiki.apache.org/confluence/display/WW/S2-067",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2016-4003",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.28"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.28"
+              },
+              "helpUri": "https://github.com/apache/struts/tree/STRUTS_2_3_28/",
+              "properties": {
+                "severity": "MEDIUM"
+              }
+            },
+            {
+              "id": "CVE-2019-0230",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.5.22"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.5.22"
+              },
+              "helpUri": "https://cwiki.apache.org/confluence/display/ww/s2-059",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2016-4436",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.29,org.apache.struts:struts2-core:2.5.1.3"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.29,org.apache.struts:struts2-core:2.5.1.3"
+              },
+              "helpUri": "https://github.com/apache/struts/tree/STRUTS_2_3_29/",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2021-31805",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.5.30"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.5.30"
+              },
+              "helpUri": "https://cwiki.apache.org/confluence/display/WW/S2-062",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2016-4430",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.29"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.29"
+              },
+              "helpUri": "http://web.nvd.nist.gov/view/vuln/detail?vulnId=CVE-2016-4430",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2015-2992",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.20.1"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.20.1"
+              },
+              "helpUri": "https://nvd.nist.gov/view/vuln/detail?vulnId=CVE-2015-2992",
+              "properties": {
+                "severity": "MEDIUM"
+              }
+            },
+            {
+              "id": "CVE-2015-5209",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version 2.3.24.1"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version 2.3.24.1"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2015-5209",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2015-5169",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version 2.3.20"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version 2.3.20"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-5169",
+              "properties": {
+                "severity": "MEDIUM"
+              }
+            },
+            {
+              "id": "CVE-2016-3093",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.28,ognl:ognl:3.0.12"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.28,ognl:ognl:3.0.12"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2016-3093",
+              "properties": {
+                "severity": "MEDIUM"
+              }
+            },
+            {
+              "id": "CVE-2016-3082",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.20.3,org.apache.struts:struts2-core:2.3.24.3,org.apache.struts:struts2-core: 2.3.28.1"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.20.3,org.apache.struts:struts2-core:2.3.24.3,org.apache.struts:struts2-core: 2.3.28.1"
+              },
+              "helpUri": "https://github.com/apache/struts/tree/STRUTS_2_3_28_1/",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2023-50164",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.5.33,6.3.0.2"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.5.33,6.3.0.2"
+              },
+              "helpUri": "https://lists.apache.org/thread/yh09b3fkf6vz5d6jdgrlvmg60lfwtqhj",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2016-3087",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.20.3,org.apache.struts:struts2-core:2.3.24.3,org.apache.struts:struts2-core: 2.3.28.1"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.20.3,org.apache.struts:struts2-core:2.3.24.3,org.apache.struts:struts2-core: 2.3.28.1"
+              },
+              "helpUri": "https://github.com/apache/struts/tree/STRUTS_2_3_28_1/",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2023-34149",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.5.31,6.1.2.1"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.5.31,6.1.2.1"
+              },
+              "helpUri": "https://github.com/advisories/GHSA-8f6x-v685-g2xc",
+              "properties": {
+                "severity": "MEDIUM"
+              }
+            },
+            {
+              "id": "CVE-2018-11776",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core - 2.3.35,2.5.17;org.apache.struts:struts2-rest-plugin - 2.3.34,2.5.17"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core - 2.3.35,2.5.17;org.apache.struts:struts2-rest-plugin - 2.3.34,2.5.17"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2018-11776",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2017-9787",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.33,org.apache.struts:struts2-core:2.5.12"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.33,org.apache.struts:struts2-core:2.5.12"
+              },
+              "helpUri": "https://github.com/apache/struts/tree/STRUTS_2_3_33/",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2016-6795",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.31,org.apache.struts:struts2-core:2.5.5"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.31,org.apache.struts:struts2-core:2.5.5"
+              },
+              "helpUri": "https://github.com/apache/struts/tree/STRUTS_2_3_31/",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2016-4465",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.29, \torg.apache.struts.xwork:xwork-core:2.3.29"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.29, \torg.apache.struts.xwork:xwork-core:2.3.29"
+              },
+              "helpUri": "https://github.com/apache/struts/tree/STRUTS_2_3_29/",
+              "properties": {
+                "severity": "MEDIUM"
+              }
+            },
+            {
+              "id": "CVE-2019-0233",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.5.22"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.5.22"
+              },
+              "helpUri": "https://cwiki.apache.org/confluence/display/ww/s2-060",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2017-12611",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.34;org.apache.struts:struts2-core:2.5.12"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.34;org.apache.struts:struts2-core:2.5.12"
+              },
+              "helpUri": "https://cwiki.apache.org/confluence/display/WW/S2-053",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2016-4433",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.29,\torg.apache.struts.xwork:xwork-core:2.3.29"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.29,\torg.apache.struts.xwork:xwork-core:2.3.29"
+              },
+              "helpUri": "https://github.com/apache/struts/tree/STRUTS_2_3_29",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2016-4431",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.29"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.29"
+              },
+              "helpUri": "https://github.com/apache/struts/tree/STRUTS_2_3_29/",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2016-3081",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.20.3,org.apache.struts:struts2-core:2.3.24.3,org.apache.struts:struts2-core: 2.3.28.1"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.20.3,org.apache.struts:struts2-core:2.3.24.3,org.apache.struts:struts2-core: 2.3.28.1"
+              },
+              "helpUri": "https://github.com/apache/struts/tree/STRUTS_2_3_28_1/",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2020-17530",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.5.26"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.5.26"
+              },
+              "helpUri": "https://cwiki.apache.org/confluence/display/WW/S2-061",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2017-5638",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.32,org.apache.struts:struts2-core:2.5.10.1"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.32,org.apache.struts:struts2-core:2.5.10.1"
+              },
+              "helpUri": "https://github.com/apache/struts/tree/STRUTS_2_3_32/",
+              "properties": {
+                "severity": "CRITICAL"
+              }
+            },
+            {
+              "id": "CVE-2017-9804",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.34,org.apache.struts:struts2-core:2.5.13"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.34,org.apache.struts:struts2-core:2.5.13"
+              },
+              "helpUri": "https://github.com/apache/struts/tree/STRUTS_2_3_34/",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2023-34396",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.5.31,6.1.2.1"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.5.31,6.1.2.1"
+              },
+              "helpUri": "https://github.com/advisories/GHSA-4g42-gqrg-4633",
+              "properties": {
+                "severity": "MEDIUM"
+              }
+            },
+            {
+              "id": "CVE-2016-3092",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.tomcat.embed:tomcat-embed-core:9.0.0.M8,8.5.3,8.0.36,7.0.70,org.apache.tomcat:tomcat-coyote:9.0.0.M8,8.5.3,8.0.36,7.0.70,commons-fileupload:commons-fileupload:1.3.2"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.tomcat.embed:tomcat-embed-core:9.0.0.M8,8.5.3,8.0.36,7.0.70,org.apache.tomcat:tomcat-coyote:9.0.0.M8,8.5.3,8.0.36,7.0.70,commons-fileupload:commons-fileupload:1.3.2"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-3092",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2016-1000031",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version 1.3.3"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version 1.3.3"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-1000031",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "WS-2014-0034",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version commons-fileupload:commons-fileupload:1.4"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version commons-fileupload:commons-fileupload:1.4"
+              },
+              "helpUri": "https://github.com/apache/commons-fileupload/commit/5b4881d7f75f439326f54fa554a9ca7de6d60814",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2023-24998",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version commons-fileupload:commons-fileupload:1.5;org.apache.tomcat:tomcat-coyote:8.5.85,9.0.71,10.1.5,11.0.0-M3;org.apache.tomcat.embed:tomcat-embed-core:8.5.85,9.0.71,10.1.5,11.0.0-M3;org.apache.tomcat:tomcat-util:8.5.85,9.0.71,10.1.5,11.0.0-M3;org.apache.tomcat:tomcat-catalina:8.5.85,9.0.71,10.1.5,11.0.0-M3"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version commons-fileupload:commons-fileupload:1.5;org.apache.tomcat:tomcat-coyote:8.5.85,9.0.71,10.1.5,11.0.0-M3;org.apache.tomcat.embed:tomcat-embed-core:8.5.85,9.0.71,10.1.5,11.0.0-M3;org.apache.tomcat:tomcat-util:8.5.85,9.0.71,10.1.5,11.0.0-M3;org.apache.tomcat:tomcat-catalina:8.5.85,9.0.71,10.1.5,11.0.0-M3"
+              },
+              "helpUri": "https://tomcat.apache.org/security-10.html",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2024-47554",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version commons-io:commons-io:2.14.0"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version commons-io:commons-io:2.14.0"
+              },
+              "helpUri": "https://lists.apache.org/thread/6ozr91rr9cj5lm0zyhv30bsp317hk5z1",
+              "properties": {
+                "severity": "MEDIUM"
+              }
+            },
+            {
+              "id": "CVE-2021-29425",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version commons-io:commons-io:2.7"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version commons-io:commons-io:2.7"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29425",
+              "properties": {
+                "severity": "MEDIUM"
+              }
+            },
+            {
+              "id": "CVE-2016-0785",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts.xwork:xwork-core:2.3.28"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts.xwork:xwork-core:2.3.28"
+              },
+              "helpUri": "https://github.com/apache/struts/tree/STRUTS_2_3_28",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2016-4461",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.29"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts:struts2-core:2.3.29"
+              },
+              "helpUri": "https://github.com/apache/struts/tree/STRUTS_2_3_29/",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2016-2162",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts.xwork:xwork-core:2.3.25"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts.xwork:xwork-core:2.3.25"
+              },
+              "helpUri": "https://github.com/apache/struts/tree/STRUTS_2_3_25",
+              "properties": {
+                "severity": "MEDIUM"
+              }
+            },
+            {
+              "id": "CVE-2015-1831",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.apache.struts.xwork:xwork-core - 2.3.20.1"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.apache.struts.xwork:xwork-core - 2.3.20.1"
+              },
+              "helpUri": "https://nvd.nist.gov/vuln/detail/CVE-2015-1831",
+              "properties": {
+                "severity": "MEDIUM"
+              }
+            },
+            {
+              "id": "CVE-2021-22096",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.springframework:spring-core:5.2.18.RELEASE,5.3.12;org.springframework:spring-web:5.2.18.RELEASE,5.3.12;org.springframework:spring-webmvc:5.2.18.RELEASE,5.3.12;org.springframework:spring-webflux:5.2.18.RELEASE,5.3.12"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.springframework:spring-core:5.2.18.RELEASE,5.3.12;org.springframework:spring-web:5.2.18.RELEASE,5.3.12;org.springframework:spring-webmvc:5.2.18.RELEASE,5.3.12;org.springframework:spring-webflux:5.2.18.RELEASE,5.3.12"
+              },
+              "helpUri": "https://tanzu.vmware.com/security/cve-2021-22096",
+              "properties": {
+                "severity": "MEDIUM"
+              }
+            },
+            {
+              "id": "CVE-2021-22060",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.springframework:spring-core:5.2.19, 5.3.14;org.springframework:spring-web:5.2.19, 5.3.14"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.springframework:spring-core:5.2.19, 5.3.14;org.springframework:spring-web:5.2.19, 5.3.14"
+              },
+              "helpUri": "https://spring.io/security/cve-2021-22060",
+              "properties": {
+                "severity": "MEDIUM"
+              }
+            },
+            {
+              "id": "CVE-2018-1272",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.springframework:spring-core:4.3.15.RELEASE,5.0.5.RELEASE;org.springframework:spring-web:4.3.15.RELEASE,5.0.5.RELEASE"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.springframework:spring-core:4.3.15.RELEASE,5.0.5.RELEASE;org.springframework:spring-web:4.3.15.RELEASE,5.0.5.RELEASE"
+              },
+              "helpUri": "https://tanzu.vmware.com/security/cve-2018-1272",
+              "properties": {
+                "severity": "HIGH"
+              }
+            },
+            {
+              "id": "CVE-2018-1199",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.springframework.security:spring-security-web:4.1.5.RELEASE,4.2.4.RELEASE,5.0.1.RELEASE;org.springframework.security:spring-security-config:4.1.5.RELEASE,4.2.4.RELEASE,5.0.1.RELEASE;org.springframework:spring-core:4.3.14.RELEASE,5.0.3.RELEASE"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.springframework.security:spring-security-web:4.1.5.RELEASE,4.2.4.RELEASE,5.0.1.RELEASE;org.springframework.security:spring-security-config:4.1.5.RELEASE,4.2.4.RELEASE,5.0.1.RELEASE;org.springframework:spring-core:4.3.14.RELEASE,5.0.3.RELEASE"
+              },
+              "helpUri": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-1199",
+              "properties": {
+                "severity": "MEDIUM"
+              }
+            },
+            {
+              "id": "CVE-2022-22970",
+              "name": "Upgrade to version",
+              "shortDescription": {
+                "text": "Upgrade to version org.springframework:spring-beans:5.2.22,5.3.20;org.springframework:spring-core:5.2.22,5.3.20"
+              },
+              "fullDescription": {
+                "text": "Upgrade to version org.springframework:spring-beans:5.2.22,5.3.20;org.springframework:spring-core:5.2.22,5.3.20"
+              },
+              "helpUri": "https://tanzu.vmware.com/security/cve-2022-22970",
+              "properties": {
+                "severity": "MEDIUM"
+              }
+            }
+          ]
         }
       },
       "results": [
